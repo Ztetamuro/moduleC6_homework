@@ -1,0 +1,83 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+    margin: 50px auto;
+    float: left;
+}
+.send {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+p {
+    font-size: 15px;
+    border: 5px solid rgb(131, 234, 241);
+    padding: 10px;
+    margin-right: 1%;
+    border-radius: 30px;
+    max-width: 70%;
+    word-break: normal;
+}
+a {
+    color: black;
+}
+
+.work_place {
+    border-radius: 7px;
+    background-color: rgb(230, 230, 230);
+    height: 500px;
+    width: 600px;
+    margin-left: 5px;
+}
+.send_messages {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+}
+.send_message {
+    background-color: rgb(131, 234, 241);
+    width: 25%;
+    border: 5px solid;
+    border-color: rgb(131, 234, 241);
+    height: 40px;
+    transition: .5s;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 5px;
+}
+.write_message {
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: rgb(131, 234, 241);
+    height: 28px;
+    width: 55%;
+    outline: none;
+}
+
+.send_message:hover {
+    opacity: 0.8;
+}
+
+.messages {
+    position: relative;
+    margin: 0 5px;
+    height: 370px;
+    border: 5px solid rgb(131, 234, 241);
+    overflow: scroll;
+    word-break: break-all;
+}
+.request {
+    display: flexbox;
+    flex-direction: row;
+}
+.pElem {
+    width: fit-content;
+    font-size: 15px;
+    border: 5px solid rgb(131, 234, 241);
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 1%;
+}
+
